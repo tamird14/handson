@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="io.alcide.handson.TestTopologyDiscovery" tests="3" skipped="0" failures="0" errors="0" timestamp="2021-07-14T21:17:00" hostname="LAPTOP-9IRMNK1G" time="1.433">
+  <properties/>
+  <testcase name="testIpsByRecentEvents" classname="io.alcide.handson.TestTopologyDiscovery" time="0.649"/>
+  <testcase name="testTopologyDiscovery" classname="io.alcide.handson.TestTopologyDiscovery" time="0.41"/>
+  <testcase name="testIpsByHighestOutboundTraffic" classname="io.alcide.handson.TestTopologyDiscovery" time="0.372"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

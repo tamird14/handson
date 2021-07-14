@@ -1,0 +1,40 @@
+
+Note:
+-----
+The code in this test is given for the purpose of solving it.
+You are not allowed to share it with others.
+
+General Comment:
+-----------------
+The purpose of this task is to understand if we have a match for the offered position.
+If you feel that any part of the task is not focused on demonstrating your skills,
+please communicate it or even better, come with a better offer (:
+
+Required Resources:
+------------------
+In order to take this exam you'll need a computer with jdk installed on it and an IDE of your choice.
+You might/should/can use the internet.
+
+Background:
+----------
+A Generator simulates a network that is being monitored by agents.
+An agent can send events (io.alcide.handson.model.Event) with network activity information.
+
+The Task:
+--------
+The task is to build the network topology from the events.
+You are required to modify the code and implement the necessary parts in order to pass the failing tests.
+Grade will take in consideration:
+ 1. Efficiency in processing the events and in querying the results.
+ 2. Use of proper technologies* (queues, DB, cache) where they are needed.
+ 3. Code quality: (OOP, clarity, logging, error handling etc.)
+
+Technologies*: You are allowed to mock technologies but where you do please explain in a comment,
+what technology are you mocking, why is it needed there and what will the "real" solution can do
+that your mock doesnt. In addition keep the mocked API as close as possible to the real ones.
+
+Building and Testing:
+--------------------
+unzip task-file.zip
+cd handson-be
+./gradlew test
